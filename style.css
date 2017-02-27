@@ -10,18 +10,13 @@ body {
 }
 
 
-#quote-text{
-    display:flex;
-    flex-direction: row;
-}
-
 .container {
     display: flex;
     flex-direction: column;
 }
 .quote-box {
     padding: 3em;
-    margin: 6em;
+    margin: 15em;
     border-radius: 5em 10em;
     background-color: azure;
     align-items: center;
@@ -37,12 +32,12 @@ i {
 }
 #quote-content{
     font-family: 'Sansita', sans-serif;
-    font-size: 4em;
+    font-size: 3em;
     margin: 10px;
 }
 
 #quote-author {
-    font-size: 3em;
+    font-size: 2em;
     display:flex;
     justify-content: flex-end;
     font-family:  'Catamaran', sans-serif;
