@@ -1,7 +1,10 @@
 
 body {
     background-color: aqua;
+    height: 100%;
+    background-size: cover;
 }
+
 .quote-box {
     padding: 3em ;
     margin: 5em ;
@@ -18,7 +21,6 @@ body {
     padding: 10px;
     font-family: 'Sansita', sans-serif;
 }
-
 
 #quote-author {
     padding:10px;
