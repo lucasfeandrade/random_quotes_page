@@ -1,0 +1,32 @@
+
+body {
+    background-color: aqua;
+}
+.quote-box {
+    padding: 3em ;
+    margin: 5em ;
+    border-radius: 15px 50px;
+    display: inline;
+    background-color: azure;
+}
+.fa-quote-right {
+    display: block;
+    float:right;
+
+}
+#quote-content {
+    padding: 10px;
+    font-family: 'Sansita', sans-serif;
+}
+
+
+#quote-author {
+    padding:10px;
+    float: right;
+    text-align: right;
+    font-family:  'Catamaran', sans-serif;
+}
+#change_quote {
+    padding:10px;
+    text-align: right;
+}
