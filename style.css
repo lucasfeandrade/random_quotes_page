@@ -1,34 +1,56 @@
+html {
+    font-size: 100%;
+    font-size: 62.5%;
+}
 
 body {
     background-color: aqua;
-    height: 100%;
     background-size: cover;
+    height: 100%;
 }
 
+
+#quote-text{
+    display:flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
 .quote-box {
-    padding: 3em ;
-    margin: 5em ;
-    border-radius: 15px 50px;
-    display: inline;
+    padding: 3em;
+    margin: 6em;
+    border-radius: 5em 10em;
     background-color: azure;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
-.fa-quote-right {
-    display: block;
-    float:right;
+i {
+    color: aqua;
+}
 
+#footer{
+    text-align: center;
 }
-#quote-content {
-    padding: 10px;
+#quote-content{
     font-family: 'Sansita', sans-serif;
+    font-size: 4em;
+    margin: 10px;
 }
 
 #quote-author {
-    padding:10px;
-    float: right;
-    text-align: right;
+    font-size: 3em;
+    display:flex;
+    justify-content: flex-end;
     font-family:  'Catamaran', sans-serif;
 }
 #change_quote {
-    padding:10px;
-    text-align: right;
+}
+
+#footer{
+    display: flex;
+    justify-content: flex-end;
 }

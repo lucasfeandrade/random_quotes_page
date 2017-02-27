@@ -26,6 +26,7 @@ function updateQuote() {
                 console.log(author);
                 $('#quote-author').text("- " + author);
                 $('#quote-content').text(quote);
+                $('#tweet-quote').attr("href", 'https://twitter.com/intent/tweet?text='+quote+' -'+author);
                 changeColors();
             },
             beforeSend: function(xhr) {
