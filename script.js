@@ -8,11 +8,12 @@ function getRandomColor() {
 }
 
 function changeColors(animateTime) {
+    let randomColor = getRandomColor();
     $('body').animate({
-        backgroundColor: getRandomColor()
+        backgroundColor: randomColor
     }, animateTime);
     $('i').animate({
-        color: getRandomColor()
+        color: randomColor
     }, animateTime);
 }
 
@@ -41,7 +42,6 @@ function updateQuote() {
 }
 
 $(document).ready(function() {
-    updateQuote();
     $('#change_quote').on('click', function(e) {
         e.preventDefault();
         updateQuote();
